@@ -292,7 +292,7 @@ function displayGameOver(){
 
     ctx.textAlign = "center";
 
-    ctx.fillText("PRZEGRAŁEŚ!", gameWidth / 2, gameHeight / 2);
+    ctx.fillText("YOU LOST!", gameWidth / 2, gameHeight / 2);
 
     running = false;
 
